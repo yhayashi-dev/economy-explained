@@ -1,0 +1,1 @@
+(()=>{document.querySelectorAll('[data-current-year]').forEach(e=>e.textContent=String(new Date().getFullYear()));const t=document.querySelector('.nav-toggle'),n=document.querySelector('.global-nav');if(!t||!n)return;t.addEventListener('click',()=>{const o=n.classList.toggle('is-open');t.setAttribute('aria-expanded',String(o))})})();

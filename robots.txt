@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yhayashi-dev.github.io/economy-explained/sitemap.xml
